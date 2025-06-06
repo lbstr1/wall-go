@@ -37,7 +37,7 @@ function Board({
   return (
     <div
       className={clsx(
-        'relative w-full min-w-[266px] p-8 border-4 border-zinc-300 dark:border-zinc-700 rounded-2xl shadow-xl transition-all duration-500',
+        'relative w-full min-w-[360px] p-8 border-4 border-zinc-300 dark:border-zinc-700 rounded-2xl shadow-xl transition-all duration-500',
         'box-border aspect-ratio-1',
         'bg-gradient-to-br from-zinc-50 to-zinc-200 dark:from-zinc-900 dark:to-zinc-800',
         phase === 'playing' || phase === 'placing'

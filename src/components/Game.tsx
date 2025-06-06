@@ -268,7 +268,7 @@ export default function Game({
           </GameButton>
         )}
       </div>
-      <div className="board-container flex flex-col aspect-ratio-1 items-center w-[min(800px,100dvh-280px)] max-w-[calc(100dvw-32px)] transition-all">
+      <div className="board-container flex flex-col aspect-ratio-1 items-center w-[min(900px,100dvh-240px)] max-w-[calc(100dvw-32px)] transition-all">
         <Board
           board={board}
           phase={phase}
